@@ -40,16 +40,14 @@
     
         
 
-    
-
-    <h4 class="name" id="Response"><span class="type-signature"></span>new Response<span class="signature">()</span><span class="type-signature"></span></h4>
-
-    
-
-
 
 <div class="description">
-    <p>The Response object represents the response message that will be sent from the server in response to the requested operation. This includes information about the HTTP headers and body of the response from the server.<br/>  The Response object is not present in pre-triggers because they are run before the response is generated.<br/>  For post-triggers, the response represents the operation that was executed before the trigger. For example, if the post-trigger is being run ("triggered") after the creation of a document, then<br/>  the response body contains the JSON body of the document that was created. This can be accessed through the response object and (as JSON) can be natively consumed in JavaScript.<br/>  For stored procedures, the response can be manipulated to send output back to the client-side.<br/><br/>  <b>Note</b>: this object not available in pre-triggers</p>
+    <p>The Response object represents the response message that will be sent from the server in response to the requested operation. This includes information about the HTTP headers and body of the response from the server.<br/>
+  The Response object is not present in pre-triggers because they are run before the response is generated.<br/>
+  For post-triggers, the response represents the operation that was executed before the trigger. For example, if the post-trigger is being run ("triggered") after the creation of a document, then<br/>
+  the response body contains the JSON body of the document that was created. This can be accessed through the response object and (as JSON) can be natively consumed in JavaScript.<br/>
+  For stored procedures, the response can be manipulated to send output back to the client-side.<br/><br/>
+  <b>Note</b>: this object not available in pre-triggers</p>
 </div>
 
 
@@ -93,7 +91,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="DocDbWrapperScript.js.html">DocDbWrapperScript.js</a>, <a href="DocDbWrapperScript.js.html#line1813">line 1813</a>
+        <a href="D__DocDbWrapperScript.js.html">D:/DocDbWrapperScript.js</a>, <a href="D__DocDbWrapperScript.js.html#line1813">line 1813</a>
     </li></ul></dd>
     
 
@@ -193,7 +191,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="DocDbWrapperScript.js.html">DocDbWrapperScript.js</a>, <a href="DocDbWrapperScript.js.html#line1893">line 1893</a>
+        <a href="D__DocDbWrapperScript.js.html">D:/DocDbWrapperScript.js</a>, <a href="D__DocDbWrapperScript.js.html#line1893">line 1893</a>
     </li></ul></dd>
     
 
@@ -253,7 +251,8 @@
 
 
 <div class="description">
-    <p>Gets a maximum quota allowed for the resource associated with a post-trigger<br />Note: this method is only available in post-triggers</p>
+    <p>Gets a maximum quota allowed for the resource associated with a post-trigger<br />
+Note: this method is only available in post-triggers</p>
 </div>
 
 
@@ -297,7 +296,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="DocDbWrapperScript.js.html">DocDbWrapperScript.js</a>, <a href="DocDbWrapperScript.js.html#line1940">line 1940</a>
+        <a href="D__DocDbWrapperScript.js.html">D:/DocDbWrapperScript.js</a>, <a href="D__DocDbWrapperScript.js.html#line1940">line 1940</a>
     </li></ul></dd>
     
 
@@ -357,7 +356,8 @@
 
 
 <div class="description">
-    <p>Gets a current quota usage for the resource associated with a post-trigger<br />Note: this method is only available in post-triggers</p>
+    <p>Gets a current quota usage for the resource associated with a post-trigger<br />
+Note: this method is only available in post-triggers</p>
 </div>
 
 
@@ -401,7 +401,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="DocDbWrapperScript.js.html">DocDbWrapperScript.js</a>, <a href="DocDbWrapperScript.js.html#line1931">line 1931</a>
+        <a href="D__DocDbWrapperScript.js.html">D:/DocDbWrapperScript.js</a>, <a href="D__DocDbWrapperScript.js.html#line1931">line 1931</a>
     </li></ul></dd>
     
 
@@ -554,7 +554,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="DocDbWrapperScript.js.html">DocDbWrapperScript.js</a>, <a href="DocDbWrapperScript.js.html#line1912">line 1912</a>
+        <a href="D__DocDbWrapperScript.js.html">D:/DocDbWrapperScript.js</a>, <a href="D__DocDbWrapperScript.js.html#line1912">line 1912</a>
     </li></ul></dd>
     
 
@@ -614,7 +614,10 @@
 
 
 <div class="description">
-    <p>Sets the response body.<br />Note: This cannot be done in pre-triggers.<br />In post-triggers, the response body is already set with the requested resource and will be overwritten with this call.<br />In stored procedures, this call can be used to set the response message body as output to the calling client.</p>
+    <p>Sets the response body.<br />
+Note: This cannot be done in pre-triggers.<br />
+In post-triggers, the response body is already set with the requested resource and will be overwritten with this call.<br />
+In stored procedures, this call can be used to set the response message body as output to the calling client.</p>
 </div>
 
 
@@ -707,7 +710,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="DocDbWrapperScript.js.html">DocDbWrapperScript.js</a>, <a href="DocDbWrapperScript.js.html#line1901">line 1901</a>
+        <a href="D__DocDbWrapperScript.js.html">D:/DocDbWrapperScript.js</a>, <a href="D__DocDbWrapperScript.js.html#line1901">line 1901</a>
     </li></ul></dd>
     
 
@@ -745,7 +748,8 @@
 
 
 <div class="description">
-    <p>Sets a specified response header value.<br />Note: this method cannot be used to create new headers.</p>
+    <p>Sets a specified response header value.<br />
+Note: this method cannot be used to create new headers.</p>
 </div>
 
 
@@ -861,7 +865,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="DocDbWrapperScript.js.html">DocDbWrapperScript.js</a>, <a href="DocDbWrapperScript.js.html#line1921">line 1921</a>
+        <a href="D__DocDbWrapperScript.js.html">D:/DocDbWrapperScript.js</a>, <a href="D__DocDbWrapperScript.js.html#line1921">line 1921</a>
     </li></ul></dd>
     
 
@@ -909,7 +913,7 @@
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.2</a> on Wed Sep 09 2015 10:49:36 GMT-0700 (Pacific Daylight Time)
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.2</a> on Tue Oct 06 2015 15:19:33 GMT-0700 (Pacific Daylight Time)
 </footer>
 
 <script> prettyPrint(); </script>
