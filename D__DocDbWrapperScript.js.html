@@ -1813,7 +1813,7 @@ function(doc){ return doc.name; }
  * &lt;p>Object returned from a query function, namely &lt;a href="#chain">chain&lt;/a>, &lt;a href="#filter">filter&lt;/a>, &lt;a href="#map">map&lt;/a>, &lt;a href="#pluck">pluck&lt;/a>, &lt;a href="#flatten">flatten&lt;/a>, or &lt;a href="#value">value&lt;/a>.&lt;br/>
  * If the query is part of a &lt;a href="#chain">chained call&lt;/a>, then this object can be used to chain further queries until the final terminating &lt;a href="#value">value&lt;/a> call.&lt;/p>
  * @typedef {Object} QueryResponse                           -         Object returned from a query function.
- * @property {Boolean} isAllowed                             -         True if the query has been queued, false if it is not queued because of a pending timeout. 
+ * @property {Boolean} isAccepted                            -         True if the query has been queued, false if it is not queued because of a pending timeout. 
  * @memberof Collection
  *
 */
